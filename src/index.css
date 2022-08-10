@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: blue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  background-color: #c1d5e0;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+  color: #ccc;
+}
+
+.divHeader, .divFooter {
+  background-color: #1c313a;
+  height: 5em;  
+}
+
+.card {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.divFooter > p {
+  padding-top: 2em;
+}
+
+
